@@ -4,7 +4,7 @@ const replaceStrokeColor = (svgString) => {
 };
 
 const replaceFillColor = (svgString) => {
-  return svgString.replaceAll('fill="black"', 'stroke="currentColor"');
+  return svgString.replaceAll('fill="black"', 'fill="currentColor"');
 };
 
 module.exports = { replaceStrokeColor, replaceFillColor };
