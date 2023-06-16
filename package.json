@@ -4,7 +4,7 @@
   "description": "Builder for mage icons",
   "main": "src/build.js",
   "scripts": {
-    "build": "node src/build.js"
+    "build": "node compile/src/build.js"
   },
   "author": "MageIcons",
   "license": "Apache-2.0",

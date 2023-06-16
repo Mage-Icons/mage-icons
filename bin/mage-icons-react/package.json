@@ -10,12 +10,13 @@
   "author": "Mage Icons (https://mage-icons.web.app/)",
   "license": "Apache-2.0",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
     "react": "^18.2.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
-    "@babel/preset-env": "^7.22.5"
+    "@babel/preset-env": "^7.22.5",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-react": "^7.22.5"
   }
 }
