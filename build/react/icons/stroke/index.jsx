@@ -1,4 +1,3 @@
-export {default as HomeIcon} from "./HomeIcon";
 export {default as HeartIcon} from "./HeartIcon";
 export {default as CreditCardIcon} from "./CreditCardIcon";
 export {default as SearchIcon} from "./SearchIcon";
