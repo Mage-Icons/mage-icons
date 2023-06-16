@@ -1,15 +1,24 @@
 # clear build files
-rm -rf ./build/react/icons/stroke/*
-rm -rf ./build/react/icons/bulk/*
+echo "Clearing build folders"
+rm -rf ./build/react/icons/stroke
+rm -rf ./build/react/icons/bulk
 
 # create build folders
+echo "Initializing build paths"
 mkdir ./build/react/icons/stroke
-mkdir ./build/react/icons/builk
+mkdir ./build/react/icons/bulk
 
 # build icon packs
+echo "Building Icons"
 npm run build
 
 # move build to their respective repos
-# 1. move build for reacts
+# move build for reacts
+echo "Clearing react icons"
+rm -rf ./mage-icons-react/src/bulk
+rm -rf ./mage-icons-react/src/stroke
 
+echo "Updating react icons"
+mv ./build/react/icons/stroke ./mage-icons-react/src/stroke
+mv ./build/react/icons/bulk ./mage-icons-react/src/bulk
 
