@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node compile/src/build.js"
   },
+  "private": true,
   "author": "MageIcons",
   "license": "Apache-2.0",
   "dependencies": {
