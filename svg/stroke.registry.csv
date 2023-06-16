@@ -1,0 +1,212 @@
+Home;House:home:building:homepage
+Heart;Heart:Love
+Credit Card;Card:Payment:credit:debit
+Search;Search:lens
+Dot Menu;3 dots:dots:menu
+Hamburger Menu;hamburger:menu:hamburger menu:lines:dashes
+Menu Down;Menu:Lines
+Menu Left Align;Menu:left align:menu left
+User;user:avatar:man:person
+User Circle;user circle:avatar circle:man circle:person circle
+User Square;user square:avatar square:man square:person square
+Shopping Cart;Cart:shopping:trolly
+Settings;cogs:cog:wrench
+Bookmark;booklet:ribbon
+Share;share:three circles
+Eye;eye:password:view
+Notification;bell:ting tong:ding ding
+Check;tick:tick mark:check box
+Add;plus:addition
+X;into:multiply:cross:close:cancel
+Minus;subtract:dash:close:cancel:remove
+Check circle;tick circle:tick mark circle:check circle
+Add Circle;plus circle:addition circle
+x Circle;into circle:multiply circle:cross circle:close circle:cancle circle
+minus circle;subtract circle:dash circle:close circle:cancel circle:remove circle
+Check square;tick square:tick mark square:check square
+Add square;plus square:addition square
+x square;into square:multiply square:cross square:close square:cancle square
+minus square;subtract square:dash square:close square:cancel square:remove square
+lock;locked:keylock:locker:key
+unlocked;unlock:lock:key
+External Link; share: Link
+edit box;pen box:pen:pencil:edit
+edit pen;pencil:edit:pen
+edit pen writing;pencil:write:pen:pen dash
+trash a;trash:delete:recycle:trash can
+trash b;trash:delete:recycle:trash can
+trash c;trash:delete:recycle:trash can
+Shopping bag;Bag:shopping:cart
+calendar a;Date
+Calendar b;Date
+Calendar c;Date
+Clipboard;Board:paste:copy
+Clipboard text;Board:paste:copy
+More;Three dots:menu:dots 
+More horizontal;Three dots:menu:dots horizontal
+More vertical Square;Three dots square:more square:dots square
+More vertical circle;three dots circle:more circle:dots circle
+More horizontal square;Three dots square:more square:dots square
+More Horizontal circle;three dots circle:more circle:dots circle
+Arrow Right;arrow
+Arrow Down Right;arrow
+Arrow Down;Down
+Arrow Down Left;arrow
+Arrow Left;arrow
+Arrow Up Left;arrow
+Arrow Up;arrow
+Arrow Up Right;arrow
+Arrow Right Square;arrow
+Arrow Down Right Sqaure;arrow
+Arrow Down Square;arrow
+Arrow Down Left Square;arrow
+Arrow Left Square;arrow
+Arrow Up Left Square;arrow
+Arrow Up Square;arrow
+Arrow Up Right Square;arrow
+Arrow Right Circle;arrow
+Arrow Down Right Circle;arrow
+Arrow Down Circle;arrow
+Arrow Down Left Circle;arrow
+Arrow Left Circle;arrow
+Arrow Up Left Circle;arrow
+Arrow Up Circle;arrow
+Arrow Up Right Circle;arrow
+Chevron Right;arrow
+Chevron Down;arrow
+Chevron Left;arrow
+Chevron Up;arrow
+Chevron Right Square;arrow
+Chevron Down Square;arrow
+Chevron Left Square;arrow
+Chevron Up Square;arrow
+Chevron Right Circle;arrow
+Chevron Down Circle;arrow
+Chevron Left Circle;arrow
+Chevron Up Circle;arrow
+Arrow Double Right;arrow
+Arrow Double Left;arrow
+Arrow Double Down;arrow
+Arrow Double Up;arrow
+Arrow Down Right 2;arrow
+Arrow Left Down 2;arrow
+Arrow Up Left 2;arrow
+Arrow Right Up 2;arrow
+Arrow Up Right 2;arrow
+Arrow Left Up 2;arrow
+Arrow Down Left 2;arrow
+Arrow Right Down 2;arrow
+Refresh;arrow
+Reload;arrow
+Reverse Refresh;arrow
+Reload Reverse;arrow
+Minimize;arrow
+Expand;arrow
+Download;arrow
+Upload;arrow
+Arrows all Direction;arrow
+Arrows all Direcion 2;arrow
+Logout;arrow
+Login;arrow
+Alarm Clock; alarm icon:time indicator:wake up symbol:morning alert
+Align Center; center align icon:text centering:alignment symbol:middle align
+Align Left; align left icon:text align left:left justify:left alignment indicator
+Box; box icon:package symbol:parcel icon:crate graphic
+Camera; camera icon:photography symbol:snapshot indicator:photo capture icon
+Chart Decline; chart decline icon:downward graph:negative trend icon:loss indicator
+Chart Grow; chart grow icon:upward graph:positive trend icon:gain indicator
+Chart; chart icon:graph symbol:statistics icon:data visualization
+Clock; clock icon:timepiece symbol:hour indicator:schedule icon
+Danger Circle; danger circle icon:warning symbol:alert circle:risk indicator
+Danger Hexagon; danger hexagon icon:warning hexagon:alert hexagon:hazard indicator
+Danger Triangle; danger triangle icon:warning triangle:alert triangle:caution symbol
+Dark Mode; dark mode icon:night theme:low light interface:dim setting icon
+Dashboard 2; dashboard 2 icon:control panel 2:status board 2:info center 2
+Dashboard; dashboard icon:control panel:status board:info center
+Database storage 2; database storage 2 icon:data repository 2:information storage 2:record-keeping 2
+Database Storage; database storage icon:data repository:information storage:record-keeping
+Direction right 2; direction right 2 icon:arrow right 2:rightward indicator 2:navigation right 2
+Direction Right; direction right icon:arrow right:rightward indicator:navigation right
+Direction up 2; direction up 2 icon:arrow up 2:upward indicator 2:navigation up 2
+Direction up right 2; direction up right 2 icon:arrow up right 2:diagonal upward indicator 2:navigation up right 2
+Direction Up right; direction up right icon:arrow up right:diagonal upward indicator:navigation up right
+Direction up; direction up icon:arrow up:upward indicator:navigation up
+Divide Circle; divide circle icon:division symbol:arithmetic circle:mathematical divide
+Divide Square; divide square icon:division sign:arithmetic square:mathematical division
+Divide; divide icon:division symbol:arithmetic sign:mathematical operation
+Email Message; email message icon:mail symbol:communication icon:letter graphic
+Expand 2; expand 2 icon:enlarge 2:scale up 2:growth symbol 2
+Explore Compass; explore compass icon:adventure symbol:navigation tool:direction finder
+Fast Forward Back; fast forward back icon:rewind symbol:previous icon:back navigation
+Fast Forward; fast forward icon:next symbol:forward navigation:skip ahead
+Files; files icon:documents symbol:paperwork icon:records graphic
+Folder 2; folder 2 icon:directory 2:file storage 2:document holder 2
+Folder open 2; folder open 2 icon:directory open 2:file access 2:document container 2
+Folder open; folder open icon:directory open:file access:document container
+Folder; folder icon:directory:file storage:document holder
+Gender Female; gender female icon:woman symbol:female sign:girl indicator
+Gender Male; gender male icon:man symbol:male sign:boy indicator
+Hash; hash icon:hashtag symbol:number sign:pound key
+Headphones; headphones icon:audio equipment:music accessory:sound device
+Home; home icon:house symbol:residential sign:dwelling graphic
+Horizontal Chart; horizontal chart icon:bar graph:statistics side view:horizontal data representation
+Info Circle; info circle icon:information symbol:help round:details icon
+Info Square; info square icon:information sign:help square:details graphic
+Light Mode; light mode icon:day theme:bright interface:light setting icon
+Location map marker; location map marker icon:pin symbol:geolocation sign:place indicator
+Location; location icon:geolocation symbol:place sign:map indicator
+Map pin; map pin icon:location marker:geotag symbol:place pin
+Message Add; message add icon:conversation increase:text addition:communication plus
+Message info; message info icon:conversation details:text information:communication data
+Message Question Mark; message question icon:conversation query:text doubt:communication uncertainty
+Message Subtract; message subtract icon:conversation decrease:text reduction:communication minus
+Message Three dots; message three dots icon:conversation continuation:text overflow:communication ellipsis
+Message; message icon:conversation symbol:text communication:chat graphic
+Microphone; microphone icon:audio device:speech symbol:sound capture tool
+Minimize 2; minimize 2 icon:shrink 2:scale down 2:reduction symbol 2
+Muted; muted icon:silent mode:no sound symbol:audio off
+Next; next icon:forward arrow:proceed symbol:go ahead
+Notification Bell Off; notification bell off icon:alerts disabled:silence symbol:no reminder
+Notification Bell; notification bell icon:alerts symbol:reminder sign:alarm notification
+Package Box; package box icon:parcel cube:delivery package:shipping box
+Pause Circle; pause circle icon:break symbol:halt round:stop temporarily
+Pause Square; pause square icon:interruption sign:halt square:stop momentarily
+Pause; pause icon:break symbol:halt sign:stop temporarily
+Percentage Circle; percentage circle icon:proportion round:ratio symbol:percent indicator
+Percentage Square; percentage square icon:proportion square:ratio sign:percent graphic
+Percentage; percentage icon:proportion symbol:ratio sign:percent indicator
+Phone Add; phone add icon:call increase:telephone addition:contact plus
+Phone Cancel; phone cancel icon:call termination:telephone cancellation:contact close
+Phone Cross; phone cross icon:call rejection:telephone elimination:contact removal
+Phone Incoming; phone incoming icon:incoming call:telephone ringing:contact arrival
+Phone Minus; phone minus icon:call decrease:telephone reduction:contact subtraction
+Phone Missed; phone missed icon:missed call:unanswered telephone:contact missed
+Phone Outgoing; phone outgoing icon:outgoing call:telephone dialing:contact leaving
+Phone Ringing 2; phone ringing 2 icon:call alert 2:telephone sound 2:contact notification 2
+Phone Ringing; phone ringing icon:call alert:telephone sound:contact notification
+Phone; phone icon:telephone symbol:call sign:contact graphic
+Pie Chart 25; pie chart 25 icon:quarter pie:25 percent graph:data representation
+Pie Chart 30; pie chart 30 icon:30 percent graph:partial pie:data visualization
+Pie Chart 50; pie chart 50 icon:half pie:50 percent graph:data representation
+Play Circle; play circle icon:start symbol:begin round:playback icon
+Play Square; play square icon:start sign:begin square:playback graphic
+Play; play icon:start symbol:begin sign:playback indicator
+Previous; previous icon:backward arrow:return symbol:go back
+Printer; printer icon:print device:paper output:document machine
+Question Mark Circle; question mark circle icon:query symbol:inquiry round:help icon
+Question Mark Square; question mark square icon:query sign:inquiry square:help graphic
+Question Mark; question mark icon:query symbol:inquiry sign:help indicator
+Server; server icon:data center:network hub:information repository
+Server2; server2 icon:data center 2:network hub 2:information repository 2
+Star; star icon:favorite symbol:rating sign:praise indicator
+Stop Circle; stop circle icon:end symbol:halt round:termination icon
+Stop Square; stop square icon:end sign:halt square:termination graphic
+Stop; stop icon:end symbol:halt sign:termination indicator
+Timer; timer icon:countdown symbol:stopwatch sign:duration tracker
+Video; video icon:multimedia symbol:movie sign:clip graphic
+Volume Down; volume down icon:sound decrease:audio lower:noise reduction
+Volume Up; volume up icon:sound increase:audio higher:noise amplification
+Volume; volume icon:sound symbol:audio sign:noise indicator
+Wifi; wifi icon:internet symbol:wireless sign:network connection
+Zoom In; zoom in icon:magnify plus:view enlarge:detail increase
+Zoom Out; zoom out icon:magnify minus:view shrink:detail decrease
