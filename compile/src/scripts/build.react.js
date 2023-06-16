@@ -91,7 +91,7 @@ const buildReactIcons = async () => {
   fs.writeFileSync(
     fileListPath,
     mageIconListTemplate.replace(
-      "template",
+      "$template",
       JSON.stringify({
         stroke: strokeIconsList,
         bulk: bulkIconList,

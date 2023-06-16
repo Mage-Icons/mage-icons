@@ -4,7 +4,7 @@
   "description": "Finely constructed icons, perfect for deployment in web, iOS, Android, and desktop environments. Features support for SVG and web font technologies. Completely open-source, governed by the Apache License 2.0.",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf dist && rm -rf index.js && rm -rf stroke && rm -rf bulk && NODE_ENV=production babel src/ --out-dir ./ --copy-files && rm -rf src"
+    "build": "rm -rf dist && rm -rf stroke && rm -rf bulk && NODE_ENV=production babel src/ --out-dir ./ --copy-files && rm -rf src"
   },
   "repository": "git@github.com:Mage-Icons/mage-icons-react.git",
   "author": "Mage Icons (https://mage-icons.web.app/)",
