@@ -12,6 +12,7 @@
   "dependencies": {
     "react": "^18.2.0"
   },
+  "private": true,
   "devDependencies": {
     "@babel/cli": "^7.22.5",
     "@babel/core": "^7.22.5",
