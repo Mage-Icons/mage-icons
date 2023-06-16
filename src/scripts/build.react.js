@@ -1,17 +1,17 @@
 const { convertCSVtoObject } = require("../utils/csv.utils");
 const fs = require("fs");
 const { capitalCamelCase } = require("../utils/name.util");
-const { replaceStrokeColor } = require("../utils/svg.utils");
+const { replaceStrokeColor, replaceFillColor } = require("../utils/svg.utils");
 const cliProgress = require("cli-progress");
 
-const buildStrokeIcons = (icon, buildPath, template) => {
-  const filePath = `./svg/stroke/${icon.fileName}.svg`;
+const buildIcons = (icon, buildPath, sourcePath, template, svgBuilder) => {
+  const filePath = `${sourcePath}/${icon.fileName}.svg`;
   const reactIconName = `${capitalCamelCase(icon.fileName)}Icon`;
   icon.reactIconName = reactIconName;
   icon.reactIconPath = `${reactIconName}.jsx`;
 
   const svgString = fs.readFileSync(filePath).toString("utf-8");
-  const rebuildSVG = replaceStrokeColor(svgString).replace(
+  const rebuildSVG = svgBuilder(svgString).replace(
     'xmlns="http://www.w3.org/2000/svg"',
     'xmlns="http://www.w3.org/2000/svg" className={className}'
   );
@@ -30,6 +30,7 @@ const buildReactIcons = async () => {
     .toString("utf-8");
 
   const strokeBuildPath = "./build/react/icons/stroke";
+  const bulkBuildPath = "./build/react/icons/bulk";
   const fileListPath = "./build/react/iconList.json";
 
   const reactBuildProgress = new cliProgress.SingleBar(
@@ -37,25 +38,40 @@ const buildReactIcons = async () => {
     cliProgress.Presets.shades_classic
   );
   let progress = 0;
-  reactBuildProgress.start(strokeIconsList.length);
+  reactBuildProgress.start(strokeIconsList.length + (bulkIconList.length??0));
 
   for (const icon of strokeIconsList) {
-    buildStrokeIcons(icon, strokeBuildPath, template);
+    buildIcons(icon, strokeBuildPath, './svg/stroke', template, replaceStrokeColor);
     progress++;
     reactBuildProgress.update(progress);
   }
 
+  for (const icon of bulkIconList) {
+    buildIcons(icon, bulkBuildPath, './svg/bulk', template, replaceFillColor);
+    progress++;
+    reactBuildProgress.update(progress);
+  }
+
+  // for()
+
   const strokeIndexPath = "./build/react/icons/stroke/index.jsx";
+  const bulkIndexpath = "./build/react/icons/bulk/index.jsx";
   const indexTemplate = fs
     .readFileSync("./templates/react/indexTemplate.jsx")
     .toString("utf-8");
 
-  let indexString = "";
+  let strokeIndexString = "";
   for(const icon of strokeIconsList) {
-    indexString = indexString + indexTemplate.replaceAll("$template", icon.reactIconName) + "\n";
+    strokeIndexString = strokeIndexString + indexTemplate.replaceAll("$template", icon.reactIconName) + "\n";
   }
 
-  fs.writeFileSync(strokeIndexPath, indexString);
+  let bulkIndexString = "";
+  for(const icon of bulkIconList) {
+    bulkIndexString = bulkIndexString + indexTemplate.replaceAll("$template", icon.reactIconName) +  "\n";
+  }
+
+  fs.writeFileSync(strokeIndexPath, strokeIndexString);
+  fs.writeFileSync(bulkIndexpath, bulkIndexString);
 
   fs.writeFileSync(
     fileListPath,

@@ -3,4 +3,8 @@ const replaceStrokeColor = (svgString) => {
   return svgString.replaceAll('stroke="black"', 'stroke="currentColor"');
 };
 
-module.exports = { replaceStrokeColor };
+const replaceFillColor = (svgString) => {
+  return svgString.replaceAll('fill="black"', 'stroke="currentColor"');
+};
+
+module.exports = { replaceStrokeColor, replaceFillColor };
