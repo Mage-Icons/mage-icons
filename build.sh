@@ -22,3 +22,15 @@ echo "Updating react icons"
 mv ./build/react/icons/stroke ./mage-icons-react/src/stroke
 mv ./build/react/icons/bulk ./mage-icons-react/src/bulk
 
+cd ./mage-icons-react
+yarn build
+
+git add .
+git commit -m "Updating icon pack"
+git push origin main
+
+cd ..
+git add .
+git commit -m "Adding icon packs"
+git push origin main
+
