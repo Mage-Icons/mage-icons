@@ -747,18 +747,6 @@ Object.defineProperty(exports, "MapPinIcon", {
     return _MapPinIcon.default;
   }
 });
-Object.defineProperty(exports, "MenuDownIcon", {
-  enumerable: true,
-  get: function get() {
-    return _MenuDownIcon.default;
-  }
-});
-Object.defineProperty(exports, "MenuLeftAlignIcon", {
-  enumerable: true,
-  get: function get() {
-    return _MenuLeftAlignIcon.default;
-  }
-});
 Object.defineProperty(exports, "MessageAddIcon", {
   enumerable: true,
   get: function get() {
@@ -877,12 +865,6 @@ Object.defineProperty(exports, "NextIcon", {
   enumerable: true,
   get: function get() {
     return _NextIcon.default;
-  }
-});
-Object.defineProperty(exports, "NotificationBellIcon", {
-  enumerable: true,
-  get: function get() {
-    return _NotificationBellIcon.default;
   }
 });
 Object.defineProperty(exports, "NotificationBellOffIcon", {
@@ -1274,8 +1256,6 @@ var _CreditCardIcon = _interopRequireDefault(require("./CreditCardIcon"));
 var _SearchIcon = _interopRequireDefault(require("./SearchIcon"));
 var _DotMenuIcon = _interopRequireDefault(require("./DotMenuIcon"));
 var _HamburgerMenuIcon = _interopRequireDefault(require("./HamburgerMenuIcon"));
-var _MenuDownIcon = _interopRequireDefault(require("./MenuDownIcon"));
-var _MenuLeftAlignIcon = _interopRequireDefault(require("./MenuLeftAlignIcon"));
 var _UserIcon = _interopRequireDefault(require("./UserIcon"));
 var _UserCircleIcon = _interopRequireDefault(require("./UserCircleIcon"));
 var _UserSquareIcon = _interopRequireDefault(require("./UserSquareIcon"));
@@ -1437,7 +1417,6 @@ var _Minimize2Icon = _interopRequireDefault(require("./Minimize2Icon"));
 var _MutedIcon = _interopRequireDefault(require("./MutedIcon"));
 var _NextIcon = _interopRequireDefault(require("./NextIcon"));
 var _NotificationBellOffIcon = _interopRequireDefault(require("./NotificationBellOffIcon"));
-var _NotificationBellIcon = _interopRequireDefault(require("./NotificationBellIcon"));
 var _PackageBoxIcon = _interopRequireDefault(require("./PackageBoxIcon"));
 var _PauseCircleIcon = _interopRequireDefault(require("./PauseCircleIcon"));
 var _PauseSquareIcon = _interopRequireDefault(require("./PauseSquareIcon"));
