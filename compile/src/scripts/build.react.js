@@ -3,7 +3,7 @@ const fs = require("fs");
 const { capitalCamelCase } = require("../utils/name.util");
 const { replaceStrokeColor, replaceFillColor } = require("../utils/svg.utils");
 const cliProgress = require("cli-progress");
-const pjson = require("../../../package.json");
+const pjson = require("../../../bin/mage-icons-react/package.json");
 
 const buildIcons = (icon, buildPath, sourcePath, template, svgBuilder) => {
   const filePath = `${sourcePath}/${icon.fileName}.svg`;
