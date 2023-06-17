@@ -166,7 +166,6 @@ Minimize 2; minimize 2 icon:shrink 2:scale down 2:reduction symbol 2
 Muted; muted icon:silent mode:no sound symbol:audio off
 Next; next icon:forward arrow:proceed symbol:go ahead
 Notification Bell Off; notification bell off icon:alerts disabled:silence symbol:no reminder
-Notification Bell; notification bell icon:alerts symbol:reminder sign:alarm notification
 Package Box; package box icon:parcel cube:delivery package:shipping box
 Pause Circle; pause circle icon:break symbol:halt round:stop temporarily
 Pause Square; pause square icon:interruption sign:halt square:stop momentarily
