@@ -11,7 +11,9 @@ const buildIcons = (icon, buildPath, sourcePath, template, svgBuilder) => {
   icon.reactIconPath = `${reactIconName}.jsx`;
 
   const svgString = fs.readFileSync(filePath).toString("utf-8");
-  const rebuildSVG = svgBuilder(svgString).replace(
+  let rebuildSVG = svgBuilder(svgString);
+  icon.svg = rebuildSVG;
+  rebuildSVG = rebuildSVG.replace(
     'xmlns="http://www.w3.org/2000/svg"',
     'xmlns="http://www.w3.org/2000/svg" className={className}'
   );
