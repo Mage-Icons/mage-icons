@@ -3,6 +3,7 @@ const fs = require("fs");
 const { capitalCamelCase } = require("../utils/name.util");
 const { replaceStrokeColor, replaceFillColor } = require("../utils/svg.utils");
 const cliProgress = require("cli-progress");
+const pjson = require("../../../package.json");
 
 const buildIcons = (icon, buildPath, sourcePath, template, svgBuilder) => {
   const filePath = `${sourcePath}/${icon.fileName}.svg`;
@@ -97,6 +98,7 @@ const buildReactIcons = async () => {
       JSON.stringify({
         stroke: strokeIconsList,
         bulk: bulkIconList,
+        version: pjson.version,
       })
     )
   );
