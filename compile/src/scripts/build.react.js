@@ -43,66 +43,69 @@ const buildReactIcons = async () => {
   let progress = 0;
   reactBuildProgress.start(strokeIconsList.length + (bulkIconList.length ?? 0));
 
-  for (const icon of strokeIconsList) {
-    buildIcons(
-      icon,
-      strokeBuildPath,
-      "./svg/stroke",
-      template,
-      replaceStrokeColor
+  try {
+    for (const icon of strokeIconsList) {
+      buildIcons(
+        icon,
+        strokeBuildPath,
+        "./svg/stroke",
+        template,
+        replaceStrokeColor
+      );
+      progress++;
+      reactBuildProgress.update(progress);
+    }
+  
+    for (const icon of bulkIconList) {
+      buildIcons(icon, bulkBuildPath, "./svg/bulk", template, replaceFillColor);
+      progress++;
+      reactBuildProgress.update(progress);
+    }
+  
+    const strokeIndexPath = "./bin/mage-icons-react/src/stroke/index.jsx";
+    const bulkIndexpath = "./bin/mage-icons-react/src/bulk/index.jsx";
+    const indexTemplate = fs
+      .readFileSync("./compile/templates/react/indexTemplate.jsx")
+      .toString("utf-8");
+    const mageIconListTemplate = fs
+      .readFileSync("./compile/templates/react/iconListTemplate.js")
+      .toString("utf-8");
+  
+    let strokeIndexString = "";
+    for (const icon of strokeIconsList) {
+      strokeIndexString =
+        strokeIndexString +
+        indexTemplate.replaceAll("$template", icon.reactIconName) +
+        "\n";
+    }
+  
+    let bulkIndexString = "";
+    for (const icon of bulkIconList) {
+      bulkIndexString =
+        bulkIndexString +
+        indexTemplate.replaceAll("$template", icon.reactIconName) +
+        "\n";
+    }
+  
+    fs.writeFileSync(strokeIndexPath, strokeIndexString);
+    fs.writeFileSync(bulkIndexpath, bulkIndexString);
+  
+    fs.writeFileSync(
+      fileListPath,
+      mageIconListTemplate.replace(
+        "$template",
+        JSON.stringify({
+          stroke: strokeIconsList,
+          bulk: bulkIconList,
+          version: pjson.version,
+        })
+      )
     );
-    progress++;
-    reactBuildProgress.update(progress);
+  } catch(e) {
+    console.error(e);
+  } finally {
+    reactBuildProgress.stop();
   }
-
-  for (const icon of bulkIconList) {
-    buildIcons(icon, bulkBuildPath, "./svg/bulk", template, replaceFillColor);
-    progress++;
-    reactBuildProgress.update(progress);
-  }
-
-  // for()
-
-  const strokeIndexPath = "./bin/mage-icons-react/src/stroke/index.jsx";
-  const bulkIndexpath = "./bin/mage-icons-react/src/bulk/index.jsx";
-  const indexTemplate = fs
-    .readFileSync("./compile/templates/react/indexTemplate.jsx")
-    .toString("utf-8");
-  const mageIconListTemplate = fs
-    .readFileSync("./compile/templates/react/iconListTemplate.js")
-    .toString("utf-8");
-
-  let strokeIndexString = "";
-  for (const icon of strokeIconsList) {
-    strokeIndexString =
-      strokeIndexString +
-      indexTemplate.replaceAll("$template", icon.reactIconName) +
-      "\n";
-  }
-
-  let bulkIndexString = "";
-  for (const icon of bulkIconList) {
-    bulkIndexString =
-      bulkIndexString +
-      indexTemplate.replaceAll("$template", icon.reactIconName) +
-      "\n";
-  }
-
-  fs.writeFileSync(strokeIndexPath, strokeIndexString);
-  fs.writeFileSync(bulkIndexpath, bulkIndexString);
-
-  fs.writeFileSync(
-    fileListPath,
-    mageIconListTemplate.replace(
-      "$template",
-      JSON.stringify({
-        stroke: strokeIconsList,
-        bulk: bulkIconList,
-        version: pjson.version,
-      })
-    )
-  );
-  reactBuildProgress.stop();
 };
 
 module.exports = { buildReactIcons };

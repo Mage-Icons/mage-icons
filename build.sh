@@ -1,4 +1,6 @@
+#!/bin/bash
 
+set -e
 # create build folders
 echo "Initializing build paths"
 mkdir -p ./bin/mage-icons-react/src/stroke
