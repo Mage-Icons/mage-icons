@@ -29,3 +29,4 @@ jobs:
           repository: Mage-Icons/mage-icons-react
           branch: main
           directory: ./bin/mage-icons-react
+          force: true
