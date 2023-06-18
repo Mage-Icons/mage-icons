@@ -7,6 +7,8 @@ mkdir -p ./bin
 cd ./bin
 rm -rf mage-icons-react
 git clone git@github.com:Mage-Icons/mage-icons-react.git
+git fetch origin dev
+git checkout dev
 cd ..
 mkdir -p ./bin/mage-icons-react/src/stroke
 mkdir -p ./bin/mage-icons-react/src/bulk
@@ -22,5 +24,5 @@ yarn
 yarn build
 git add .
 git commit -m "Updating icons"
-git push origin main
+git push origin dev
 
