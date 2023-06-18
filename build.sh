@@ -20,5 +20,6 @@ yarn build
 
 # transpile react icons
 cd ./bin/mage-icons-react
+git pull
 yarn
 yarn build
