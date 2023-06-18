@@ -22,10 +22,10 @@ jobs:
         with:
           node-version: '16.x'
       - run: ./build.sh
-      - run: cd ./bin/mage-icons-react
-      - name: Update prod build
+      - name: Update Build
         uses: actions-js/push@master
-        run: git status
         with: 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MAGE_ICON_REACT_PAT }}
+          repository: Mage-Icons/mage-icons-react
           branch: main
+          directory: ./bin/mage-icons-react
