@@ -17,8 +17,6 @@ jobs:
           repo-mappings: |
             github.com/Mage-Icons/mage-icons
       - uses: actions/checkout@v2
-        with: 
-          ref: dev
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
