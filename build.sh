@@ -8,6 +8,8 @@ cd ./bin
 rm -rf mage-icons-react
 git clone git@github.com:Mage-Icons/mage-icons-react.git
 cd ..
+rm -rf ./bin/mage-icons-react/bulk
+rm -rf ./bin/mage-icons-react/stroke
 mkdir -p ./bin/mage-icons-react/src/stroke
 mkdir -p ./bin/mage-icons-react/src/bulk
 
