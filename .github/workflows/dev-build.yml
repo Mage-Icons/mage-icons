@@ -25,6 +25,7 @@ jobs:
       - run: cd ./bin/mage-icons-react
       - name: Update prod build
         uses: actions-js/push@master
+        run: git status
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: dev
