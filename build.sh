@@ -20,11 +20,3 @@ yarn build
 cd ./bin/mage-icons-react
 yarn
 yarn build
-
-git config --global user.email "gitbot@mageicons.com"
-git config --global user.name "Git Bot"
-
-git add .
-git commit -m "Updating icons"
-git push origin main
-
