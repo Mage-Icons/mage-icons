@@ -31,7 +31,7 @@ jobs:
           branch: main
           directory: ./bin/mage-icons-react
           force: true
-      - run: cd ./bin
+      - run: cd ./bin && ls
       - run: ls
       - name: get version
         id: version
