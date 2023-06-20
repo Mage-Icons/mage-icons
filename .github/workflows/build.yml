@@ -31,6 +31,7 @@ jobs:
           branch: main
           directory: ./bin/mage-icons-react
           force: true
+      - run: pwd
       - name: Create Release Draft
         id: create_release
         uses: actions/create-release@v1
