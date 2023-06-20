@@ -16,7 +16,7 @@ mkdir -p ./bin/mage-icons-react/src/bulk
 # build icon packs
 echo "Building Icons"
 yarn
-yarn build
+yarn build-react
 
 # transpile react icons
 cd ./bin/mage-icons-react
