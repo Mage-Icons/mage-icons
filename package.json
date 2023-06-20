@@ -4,7 +4,8 @@
   "description": "Builder for mage icons",
   "main": "src/build.js",
   "scripts": {
-    "build": "node compile/src/build.js"
+    "build-react": "node compile/src/build.js react",
+    "build-svg": "node compile/src/build.js svg"
   },
   "private": true,
   "author": "MageIcons",

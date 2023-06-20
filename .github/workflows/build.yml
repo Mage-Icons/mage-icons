@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: ./build.sh
+      - run: ./build.svg.sh
       - name: Update Build
         uses: actions-js/push@master
         with: 
@@ -30,3 +31,30 @@ jobs:
           branch: main
           directory: ./bin/mage-icons-react
           force: true
+      - name: get version
+        id: version
+        uses: notiz-dev/github-action-json-property@release
+        with: 
+          path: 'package.json'
+          prop_path: 'version'
+        
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }} # This token is provided by Actions, you do not need to create your own token
+        with:
+          tag_name: ${{steps.version.outputs.prop}} 
+          release_name: Mage Icons v${{steps.version.outputs.prop}} 
+          body_path: ./changelog.md
+          draft: true
+          prerelease: false
+
+      - uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./bin/mage-icons-svg.zip
+          asset_name: mage-icons-svg.zip
+          asset_content_type: application/zip
