@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: ./build.sh
+      - run: ./build.svg.sh
       - name: Update Build
         uses: actions-js/push@master
         with: 
@@ -30,3 +31,26 @@ jobs:
           branch: main
           directory: ./bin/mage-icons-react
           force: true
+      - name: Create Release Draft
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: test
+          release_name: test
+          draft: true
+          prerelease: false
+      - uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./bin/mage-icons-svg.zip
+          asset_name: mage-icons-svg.zip
+          asset_content_type: application/zip
+      - uses: eregon/publish-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          release_id: ${{ steps.create_release.outputs.id }}
