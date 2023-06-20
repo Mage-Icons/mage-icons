@@ -31,7 +31,8 @@ jobs:
           branch: main
           directory: ./bin/mage-icons-react
           force: true
-      
+      - run: cd ./bin
+      - run: ls
       - name: get version
         id: version
         uses: notiz-dev/github-action-json-property@release
