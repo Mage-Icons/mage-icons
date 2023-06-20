@@ -22,6 +22,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: ./build.sh
+      - run: ./build.svg.sh
       - name: Update Build
         uses: actions-js/push@master
         with: 

@@ -46,7 +46,7 @@ jobs:
         with:
           tag_name: ${{steps.version.outputs.prop}} 
           release_name: Release ${{steps.version.outputs.prop}} 
-          body: cat changelog.md
+          body_path: ./changelog.md
           draft: true
           prerelease: false
 
@@ -58,9 +58,3 @@ jobs:
           asset_path: ./bin/mage-icons-svg.zip
           asset_name: mage-icons-svg.zip
           asset_content_type: application/zip
-
-      - uses: eregon/publish-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.RELEASE_PAT }}
-        with:
-          release_id: ${{ steps.create_release.outputs.id }}
