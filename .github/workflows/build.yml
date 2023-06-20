@@ -46,7 +46,7 @@ jobs:
         with:
           tag_name: ${{steps.version.outputs.prop}} 
           release_name: Release ${{steps.version.outputs.prop}} 
-          body: cat changelog.md
+          body_path: ./changelog.md
           draft: true
           prerelease: false
 
