@@ -10,10 +10,6 @@ Bookmark;booklet:ribbon
 Share;share:three circles
 Eye;eye:password:view
 Notification;bell:ting tong:ding ding
-Check;tick:tick mark:check box
-Add;plus:addition
-X;into:multiply:cross:close:cancel
-Minus;subtract:dash:close:cancel:remove
 Check circle;tick circle:tick mark circle:check circle
 Add Circle;plus circle:addition circle
 x Circle;into circle:multiply circle:cross circle:close circle:cancle circle
@@ -24,7 +20,6 @@ x square;into square:multiply square:cross square:close square:cancle square
 minus square;subtract square:dash square:close square:cancel square:remove square
 lock;locked:keylock:locker:key
 unlocked;unlock:lock:key
-External Link; share: Link
 edit box;pen box:pen:pencil:edit
 edit pen;pencil:edit:pen
 edit pen writing;pencil:write:pen:pen dash
@@ -37,20 +32,10 @@ Calendar b;Date
 Calendar c;Date
 Clipboard;Board:paste:copy
 Clipboard text;Board:paste:copy
-More;Three dots:menu:dots 
-More horizontal;Three dots:menu:dots horizontal
 More vertical Square;Three dots square:more square:dots square
 More vertical circle;three dots circle:more circle:dots circle
 More horizontal square;Three dots square:more square:dots square
 More Horizontal circle;three dots circle:more circle:dots circle
-Arrow Right;arrow
-Arrow Down Right;arrow
-Arrow Down;Down
-Arrow Down Left;arrow
-Arrow Left;arrow
-Arrow Up Left;arrow
-Arrow Up;arrow
-Arrow Up Right;arrow
 Arrow Right Square;arrow
 Arrow Down Right Sqaure;arrow
 Arrow Down Square;arrow
@@ -67,10 +52,6 @@ Arrow Left Circle;arrow
 Arrow Up Left Circle;arrow
 Arrow Up Circle;arrow
 Arrow Up Right Circle;arrow
-Chevron Right;arrow
-Chevron Down;arrow
-Chevron Left;arrow
-Chevron Up;arrow
 Chevron Right Square;arrow
 Chevron Down Square;arrow
 Chevron Left Square;arrow
@@ -79,33 +60,7 @@ Chevron Right Circle;arrow
 Chevron Down Circle;arrow
 Chevron Left Circle;arrow
 Chevron Up Circle;arrow
-Arrow Double Right;arrow
-Arrow Double Left;arrow
-Arrow Double Down;arrow
-Arrow Double Up;arrow
-Arrow Down Right 2;arrow
-Arrow Left Down 2;arrow
-Arrow Up Left 2;arrow
-Arrow Right Up 2;arrow
-Arrow Up Right 2;arrow
-Arrow Left Up 2;arrow
-Arrow Down Left 2;arrow
-Arrow Right Down 2;arrow
-Refresh;arrow
-Reload;arrow
-Reverse Refresh;arrow
-Reload Reverse;arrow
-Minimize;arrow
-Expand;arrow
-Download;arrow
-Upload;arrow
-Arrows all Direction;arrow
-Arrows all Direcion 2;arrow
-Logout;arrow
-Login;arrow
 Alarm Clock; alarm icon:time indicator:wake up symbol:morning alert
-Align Center; center align icon:text centering:alignment symbol:middle align
-Align Left; align left icon:text align left:left justify:left alignment indicator
 Box; box icon:package symbol:parcel icon:crate graphic
 Camera; camera icon:photography symbol:snapshot indicator:photo capture icon
 Chart Decline; chart decline icon:downward graph:negative trend icon:loss indicator
@@ -128,9 +83,7 @@ Direction Up right; direction up right icon:arrow up right:diagonal upward indic
 Direction up; direction up icon:arrow up:upward indicator:navigation up
 Divide Circle; divide circle icon:division symbol:arithmetic circle:mathematical divide
 Divide Square; divide square icon:division sign:arithmetic square:mathematical division
-Divide; divide icon:division symbol:arithmetic sign:mathematical operation
 Email Message; email message icon:mail symbol:communication icon:letter graphic
-Expand 2; expand 2 icon:enlarge 2:scale up 2:growth symbol 2
 Explore Compass; explore compass icon:adventure symbol:navigation tool:direction finder
 Fast Forward Back; fast forward back icon:rewind symbol:previous icon:back navigation
 Fast Forward; fast forward icon:next symbol:forward navigation:skip ahead
@@ -139,9 +92,6 @@ Folder 2; folder 2 icon:directory 2:file storage 2:document holder 2
 Folder open 2; folder open 2 icon:directory open 2:file access 2:document container 2
 Folder open; folder open icon:directory open:file access:document container
 Folder; folder icon:directory:file storage:document holder
-Gender Female; gender female icon:woman symbol:female sign:girl indicator
-Gender Male; gender male icon:man symbol:male sign:boy indicator
-Hash; hash icon:hashtag symbol:number sign:pound key
 Headphones; headphones icon:audio equipment:music accessory:sound device
 Home; home icon:house symbol:residential sign:dwelling graphic
 Horizontal Chart; horizontal chart icon:bar graph:statistics side view:horizontal data representation
@@ -150,7 +100,6 @@ Info Square; info square icon:information sign:help square:details graphic
 Light Mode; light mode icon:day theme:bright interface:light setting icon
 Location map marker; location map marker icon:pin symbol:geolocation sign:place indicator
 Location; location icon:geolocation symbol:place sign:map indicator
-Map pin; map pin icon:location marker:geotag symbol:place pin
 Message Add; message add icon:conversation increase:text addition:communication plus
 Message info; message info icon:conversation details:text information:communication data
 Message Question Mark; message question icon:conversation query:text doubt:communication uncertainty
@@ -158,7 +107,6 @@ Message Subtract; message subtract icon:conversation decrease:text reduction:com
 Message Three dots; message three dots icon:conversation continuation:text overflow:communication ellipsis
 Message; message icon:conversation symbol:text communication:chat graphic
 Microphone; microphone icon:audio device:speech symbol:sound capture tool
-Minimize 2; minimize 2 icon:shrink 2:scale down 2:reduction symbol 2
 Muted; muted icon:silent mode:no sound symbol:audio off
 Next; next icon:forward arrow:proceed symbol:go ahead
 Notification Bell Off; notification bell off icon:alerts disabled:silence symbol:no reminder
@@ -168,7 +116,6 @@ Pause Square; pause square icon:interruption sign:halt square:stop momentarily
 Pause; pause icon:break symbol:halt sign:stop temporarily
 Percentage Circle; percentage circle icon:proportion round:ratio symbol:percent indicator
 Percentage Square; percentage square icon:proportion square:ratio sign:percent graphic
-Percentage; percentage icon:proportion symbol:ratio sign:percent indicator
 Phone Add; phone add icon:call increase:telephone addition:contact plus
 Phone Cancel; phone cancel icon:call termination:telephone cancellation:contact close
 Phone Cross; phone cross icon:call rejection:telephone elimination:contact removal
@@ -189,7 +136,6 @@ Previous; previous icon:backward arrow:return symbol:go back
 Printer; printer icon:print device:paper output:document machine
 Question Mark Circle; question mark circle icon:query symbol:inquiry round:help icon
 Question Mark Square; question mark square icon:query sign:inquiry square:help graphic
-Question Mark; question mark icon:query symbol:inquiry sign:help indicator
 Server; server icon:data center:network hub:information repository
 Server2; server2 icon:data center 2:network hub 2:information repository 2
 Star; star icon:favorite symbol:rating sign:praise indicator
@@ -201,6 +147,33 @@ Video; video icon:multimedia symbol:movie sign:clip graphic
 Volume Down; volume down icon:sound decrease:audio lower:noise reduction
 Volume Up; volume up icon:sound increase:audio higher:noise amplification
 Volume; volume icon:sound symbol:audio sign:noise indicator
-Wifi; wifi icon:internet symbol:wireless sign:network connection
 Zoom In; zoom in icon:magnify plus:view enlarge:detail increase
 Zoom Out; zoom out icon:magnify minus:view shrink:detail decrease
+Copy;Duplicate:Clone:Replicate
+Dislike;Thumbs down:Not in favor:Negative feedback
+File add;Add document:Insert file:Add file
+File Check;File verified:File confirmation:Document check
+File Cross;File delete:File remove:Document cross
+File Dash;File minus:File reduction:Document dash
+File Download;Download document:Get file:Retrieve file
+File Question Mark;File query:Document question:File doubt
+File Subtract;Subtract file:Remove file:Delete file
+File Upload;Upload document:Send file:Dispatch file
+File;Document:Record:Sheet
+Filter 2;Refine:Screen:Sieve
+Filter;Refine:Screen:Sieve
+Flag;Marker:Signal:Indicator
+Image;Picture:Photo:Graphic
+Inbox;Mailbox:Incoming:Received
+Keyboard;Typing device:Input device:Keypad
+Laptop;Notebook:Portable computer:Netbook
+Like;Thumbs up:In favor:Positive feedback
+Message Rounded Dash;Message minus:Message reduction:Message dash
+Message Rounded Dots;Message dots:Message points:Message details
+Message Rounded Info;Message information:Message details:Message facts
+Message Rounded Plus;Message add:Message expansion:Message increase
+Message Rounded Question Mark;Message query:Message doubt:Question message
+Message Rounded;Round message:Bubble message:Chat message
+Mobile;Cellphone:Smartphone:Handheld device
+Mouse;Pointing device:Cursor control:Input device
+TV;Television:Broadcast screen:Display screen
