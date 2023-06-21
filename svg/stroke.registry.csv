@@ -206,3 +206,34 @@ Volume; volume icon:sound symbol:audio sign:noise indicator
 Wifi; wifi icon:internet symbol:wireless sign:network connection
 Zoom In; zoom in icon:magnify plus:view enlarge:detail increase
 Zoom Out; zoom out icon:magnify minus:view shrink:detail decrease
+Attachment;Attach:File attachment:Document attachment
+Closed;Shut:Sealed:Locked
+Copy;Duplicate:Clone:Replicate
+Dislike;Thumbs down:Not in favor:Negative feedback
+File add;Add document:Insert file:Add file
+File Check;File verified:File confirmation:Document check
+File Cross;File delete:File remove:Document cross
+File Dash;File minus:File reduction:Document dash
+File Download;Download document:Get file:Retrieve file
+File Question Mark;File query:Document question:File doubt
+File Subtract;Subtract file:Remove file:Delete file
+File Upload;Upload document:Send file:Dispatch file
+File;Document:Record:Sheet
+Filter 2;Refine:Screen:Sieve
+Filter;Refine:Screen:Sieve
+Flag;Marker:Signal:Indicator
+Image;Picture:Photo:Graphic
+Inbox;Mailbox:Incoming:Received
+Keyboard;Typing device:Input device:Keypad
+Laptop;Notebook:Portable computer:Netbook
+Like;Thumbs up:In favor:Positive feedback
+Link;Connection:Chain:Bind
+Message Rounded Dash;Message minus:Message reduction:Message dash
+Message Rounded Dots;Message dots:Message points:Message details
+Message Rounded Info;Message information:Message details:Message facts
+Message Rounded Plus;Message add:Message expansion:Message increase
+Message Rounded Question Mark;Message query:Message doubt:Question message
+Message Rounded;Round message:Bubble message:Chat message
+Mobile;Cellphone:Smartphone:Handheld device
+Mouse;Pointing device:Cursor control:Input device
+TV;Television:Broadcast screen:Display screen
