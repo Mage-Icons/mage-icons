@@ -35,6 +35,7 @@ const buildReactIcons = async () => {
   const strokeBuildPath = "./bin/mage-icons-react/src/stroke";
   const bulkBuildPath = "./bin/mage-icons-react/src/bulk";
   const fileListPath = "./bin/mage-icons-react/index.js";
+  const versionFile = "./bin/mage-icons-react/version.txt";
 
   const reactBuildProgress = new cliProgress.SingleBar(
     {},
@@ -100,6 +101,11 @@ const buildReactIcons = async () => {
           version: pjson.version,
         })
       )
+    );
+
+    fs.writeFileSync(
+      versionFile,
+      pjson.version,
     );
   } catch(e) {
     console.error(e);
