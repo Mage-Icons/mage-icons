@@ -2,7 +2,7 @@
   
 Mage Icons is an open source icon system designed with soleley user interface and SAAS production in mind. The icons are constructed using 24x24 pixel grid, ideal for smaller viewing experiences. All the icons are free for personal and commercial use. Mage icons is a project under development and we are working on bringing you a library flexible for all development and design environments. Thank you for your support, we hope to bring many more beautiful icons to your design.  
 
-![Mage Icons](https://drive.google.com/file/d/1E7nly1oHFByDNEmy5LWOF2XoNUFPhJiz/view?usp=sharing)
+![Mage Icons](https://lh3.googleusercontent.com/u/0/drive-viewer/AFGJ81rTfsOyUZcGuZ-nV4_bz2GOVjQC3y9Ss379Ui91PXeXTxHGUusOkkHLvzdKsv7jBUi6huA0VFcsI48yCbT7BtTCW916yQ=w2560-h1321)
   
 View full library at https://mageicons.com/  
   
