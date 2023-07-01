@@ -1,6 +1,6 @@
 {
   "name": "mage-icon-builder",
-  "version": "0.0.4-beta",
+  "version": "0.0.5-beta",
   "description": "Builder for mage icons",
   "main": "src/build.js",
   "scripts": {
