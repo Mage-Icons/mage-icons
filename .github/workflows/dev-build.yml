@@ -21,7 +21,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-      - run: ./build.sh
+      - run: ./build.dev.sh
       - run: ./build.svg.sh
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
