@@ -6,7 +6,7 @@ Home Cross;House:Building
 Home Plus;House:Building
 Home Check;House:Building:Check:Tick
 Home Heart;House:Building:Heart
-Home Security Lock;House:Building:Lock: Security
+Home Security Lock;House:Building:Lock: Secur3ity
 Heart;Health:Love:Valentine
 Trash;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
@@ -18,13 +18,13 @@ Globe;Web:Language:Earth:World
 Shop;House:Building:Store:Ecommerce
 Shopping Cart;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
 Shopping Bag;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
-Download ;Arrow:Arrow Down:Transfer:Save:Import
+Download;Arrow:Arrow Down:Transfer:Save:Import
 Upload;Arrow:Arrow Up:Transfer:Send:Export
 Logout;Arrow:Arrow Right:Sign Out:Signout:Log Out
 Login;Arrow:Arrow Right: Sign In:Signin:Log In
 Bell Notification;Alarm:Reminder:Bell:Notification
 Bell Notification Muted;Alarm:Reminder:Mute:Snooze:Bell:Notification
-3D Box;Box:3D
+Three D Box;Box:3D
 Package Box;Delivery Package:Shipping
 Search;Magnifying Glass:Find:Discover
 Stack;Dashboard:List:Cards
@@ -273,7 +273,7 @@ Chevron Up Square;Square:Arrow:Dropdown
 Arrow Right Square;Square:Arrow
 Arrow Down Right Square;Square:Arrow
 Arrow Down Square;Square:Arrow
-Arrow Down Right Square;Square:Arrow
+Arrow Down Left Square;Square:Arrow
 Arrow Left Square;Square:Arrow
 Arrow Up Left Square;Square:Arrow
 Arrow Up Square;Square:Arrow
@@ -299,4 +299,4 @@ Heart Square;Square:Heart
 Search Square;Square:Search
 Trash Square;Square:Dustbin:Recycle:Delete
 Bell Notification Square;Square:Notification
-3D Box Square;Sqaure:3D Box
+Three D Box Square;Sqaure:3D Box
