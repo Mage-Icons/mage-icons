@@ -30,6 +30,6 @@ jobs:
         with:
           source-directory: './bin/mage-icons-react'
           destination-github-username: 'mage-icons'
-          destination-repository-name: 'mage-icons'
+          destination-repository-name: 'mage-icons-react'
           user-email: bugthedebugger@gmail.com
           target-branch: dev
