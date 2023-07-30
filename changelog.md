@@ -1,4 +1,4 @@
-# Version 0.0.5-beta
+# Version 0.0.5.1-beta
 
 ### Change Log 
 Updated the readme section for Mage Icons
