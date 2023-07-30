@@ -25,6 +25,8 @@ cd ./bin/mage-icons-react
 git pull
 yarn
 yarn build
+git config --global user.email "mage-icon-bot@example.com"
+git config --global user.name "Mage Icon Bot"
 version=$(cat version.txt)
 yarn version --new-version "$version"
 rm version.txt
