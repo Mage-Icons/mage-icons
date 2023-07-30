@@ -6,7 +6,7 @@ Home Cross;House:Building
 Home Plus;House:Building
 Home Check;House:Building:Check:Tick
 Home Heart;House:Building:Heart
-Home Security;House:Building:Lock: Security
+Home Security Lock;House:Building:Lock: Security
 Heart;Health:Love:Valentine
 Trash;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
