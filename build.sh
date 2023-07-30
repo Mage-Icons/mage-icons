@@ -23,5 +23,6 @@ cd ./bin/mage-icons-react
 git pull
 yarn
 yarn build
-yarn version --new-version < version.txt
+version=$(cat version.txt)
+yarn version --new-version "$version"
 rm version.txt
