@@ -1,188 +1,243 @@
-Heart;Heart:Love
-Credit Card;Card:Payment:credit:debit
-User;user:avatar:man:person
-User Circle;user circle:avatar circle:man circle:person circle
-User Square;user square:avatar square:man square:person square
-Shopping Cart;Cart:shopping:trolly
-Settings;cogs:cog:wrench
-Bookmark;booklet:ribbon
-Share;share:three circles
-Eye;eye:password:view
-Notification;bell:ting tong:ding ding
-Check circle;tick circle:tick mark circle:check circle
-Add Circle;plus circle:addition circle
-x Circle;into circle:multiply circle:cross circle:close circle:cancle circle
-minus circle;subtract circle:dash circle:close circle:cancel circle:remove circle
-Check square;tick square:tick mark square:check square
-Add square;plus square:addition square
-x square;into square:multiply square:cross square:close square:cancle square
-minus square;subtract square:dash square:close square:cancel square:remove square
-lock;locked:keylock:locker:key
-unlocked;unlock:lock:key
-edit box;pen box:pen:pencil:edit
-edit pen;pencil:edit:pen
-edit pen writing;pencil:write:pen:pen dash
-trash a;trash:delete:recycle:trash can
-trash b;trash:delete:recycle:trash can
-trash c;trash:delete:recycle:trash can
-Shopping bag;Bag:shopping:cart
-calendar a;Date
-Calendar b;Date
-Calendar c;Date
-Clipboard;Board:paste:copy
-Clipboard text;Board:paste:copy
-More vertical Square;Three dots square:more square:dots square
-More vertical circle;three dots circle:more circle:dots circle
-More horizontal square;Three dots square:more square:dots square
-More Horizontal circle;three dots circle:more circle:dots circle
-Arrow Right Square;arrow
-Arrow Down Right Sqaure;arrow
-Arrow Down Square;arrow
-Arrow Down Left Square;arrow
-Arrow Left Square;arrow
-Arrow Up Left Square;arrow
-Arrow Up Square;arrow
-Arrow Up Right Square;arrow
-Arrow Right Circle;arrow
-Arrow Down Right Circle;arrow
-Arrow Down Circle;arrow
-Arrow Down Left Circle;arrow
-Arrow Left Circle;arrow
-Arrow Up Left Circle;arrow
-Arrow Up Circle;arrow
-Arrow Up Right Circle;arrow
-Chevron Right Square;arrow
-Chevron Down Square;arrow
-Chevron Left Square;arrow
-Chevron Up Square;arrow
-Chevron Right Circle;arrow
-Chevron Down Circle;arrow
-Chevron Left Circle;arrow
-Chevron Up Circle;arrow
-Alarm Clock; alarm icon:time indicator:wake up symbol:morning alert
-Box; box icon:package symbol:parcel icon:crate graphic
-Camera; camera icon:photography symbol:snapshot indicator:photo capture icon
-Chart Decline; chart decline icon:downward graph:negative trend icon:loss indicator
-Chart Grow; chart grow icon:upward graph:positive trend icon:gain indicator
-Chart; chart icon:graph symbol:statistics icon:data visualization
-Clock; clock icon:timepiece symbol:hour indicator:schedule icon
-Danger Circle; danger circle icon:warning symbol:alert circle:risk indicator
-Danger Hexagon; danger hexagon icon:warning hexagon:alert hexagon:hazard indicator
-Danger Triangle; danger triangle icon:warning triangle:alert triangle:caution symbol
-Dark Mode; dark mode icon:night theme:low light interface:dim setting icon
-Dashboard 2; dashboard 2 icon:control panel 2:status board 2:info center 2
-Dashboard; dashboard icon:control panel:status board:info center
-Database storage 2; database storage 2 icon:data repository 2:information storage 2:record-keeping 2
-Database Storage; database storage icon:data repository:information storage:record-keeping
-Direction right 2; direction right 2 icon:arrow right 2:rightward indicator 2:navigation right 2
-Direction Right; direction right icon:arrow right:rightward indicator:navigation right
-Direction up 2; direction up 2 icon:arrow up 2:upward indicator 2:navigation up 2
-Direction up right 2; direction up right 2 icon:arrow up right 2:diagonal upward indicator 2:navigation up right 2
-Direction Up right; direction up right icon:arrow up right:diagonal upward indicator:navigation up right
-Direction up; direction up icon:arrow up:upward indicator:navigation up
-Divide Circle; divide circle icon:division symbol:arithmetic circle:mathematical divide
-Divide Square; divide square icon:division sign:arithmetic square:mathematical division
-Email Message; email message icon:mail symbol:communication icon:letter graphic
-Explore Compass; explore compass icon:adventure symbol:navigation tool:direction finder
-Fast Forward Back; fast forward back icon:rewind symbol:previous icon:back navigation
-Fast Forward; fast forward icon:next symbol:forward navigation:skip ahead
-Files; files icon:documents symbol:paperwork icon:records graphic
-Folder 2; folder 2 icon:directory 2:file storage 2:document holder 2
-Folder open 2; folder open 2 icon:directory open 2:file access 2:document container 2
-Folder open; folder open icon:directory open:file access:document container
-Folder; folder icon:directory:file storage:document holder
-Headphones; headphones icon:audio equipment:music accessory:sound device
-Home; home icon:house symbol:residential sign:dwelling graphic
-Horizontal Chart; horizontal chart icon:bar graph:statistics side view:horizontal data representation
-Info Circle; info circle icon:information symbol:help round:details icon
-Info Square; info square icon:information sign:help square:details graphic
-Light Mode; light mode icon:day theme:bright interface:light setting icon
-Location map marker; location map marker icon:pin symbol:geolocation sign:place indicator
-Location; location icon:geolocation symbol:place sign:map indicator
-Message Add; message add icon:conversation increase:text addition:communication plus
-Message info; message info icon:conversation details:text information:communication data
-Message Question Mark; message question icon:conversation query:text doubt:communication uncertainty
-Message Subtract; message subtract icon:conversation decrease:text reduction:communication minus
-Message Three dots; message three dots icon:conversation continuation:text overflow:communication ellipsis
-Message; message icon:conversation symbol:text communication:chat graphic
-Microphone; microphone icon:audio device:speech symbol:sound capture tool
-Muted; muted icon:silent mode:no sound symbol:audio off
-Next; next icon:forward arrow:proceed symbol:go ahead
-Notification Bell Off; notification bell off icon:alerts disabled:silence symbol:no reminder
-Package Box; package box icon:parcel cube:delivery package:shipping box
-Pause Circle; pause circle icon:break symbol:halt round:stop temporarily
-Pause Square; pause square icon:interruption sign:halt square:stop momentarily
-Pause; pause icon:break symbol:halt sign:stop temporarily
-Percentage Circle; percentage circle icon:proportion round:ratio symbol:percent indicator
-Percentage Square; percentage square icon:proportion square:ratio sign:percent graphic
-Phone Add; phone add icon:call increase:telephone addition:contact plus
-Phone Cancel; phone cancel icon:call termination:telephone cancellation:contact close
-Phone Cross; phone cross icon:call rejection:telephone elimination:contact removal
-Phone Incoming; phone incoming icon:incoming call:telephone ringing:contact arrival
-Phone Minus; phone minus icon:call decrease:telephone reduction:contact subtraction
-Phone Missed; phone missed icon:missed call:unanswered telephone:contact missed
-Phone Outgoing; phone outgoing icon:outgoing call:telephone dialing:contact leaving
-Phone Ringing 2; phone ringing 2 icon:call alert 2:telephone sound 2:contact notification 2
-Phone Ringing; phone ringing icon:call alert:telephone sound:contact notification
-Phone; phone icon:telephone symbol:call sign:contact graphic
-Pie Chart 25; pie chart 25 icon:quarter pie:25 percent graph:data representation
-Pie Chart 30; pie chart 30 icon:30 percent graph:partial pie:data visualization
-Pie Chart 50; pie chart 50 icon:half pie:50 percent graph:data representation
-Play Circle; play circle icon:start symbol:begin round:playback icon
-Play Square; play square icon:start sign:begin square:playback graphic
-Play; play icon:start symbol:begin sign:playback indicator
-Previous; previous icon:backward arrow:return symbol:go back
-Printer; printer icon:print device:paper output:document machine
-Question Mark Circle; question mark circle icon:query symbol:inquiry round:help icon
-Question Mark Square; question mark square icon:query sign:inquiry square:help graphic
-Server; server icon:data center:network hub:information repository
-Server2; server2 icon:data center 2:network hub 2:information repository 2
-Star; star icon:favorite symbol:rating sign:praise indicator
-Stop Circle; stop circle icon:end symbol:halt round:termination icon
-Stop Square; stop square icon:end sign:halt square:termination graphic
-Stop; stop icon:end symbol:halt sign:termination indicator
-Timer; timer icon:countdown symbol:stopwatch sign:duration tracker
-Video; video icon:multimedia symbol:movie sign:clip graphic
-Volume Down; volume down icon:sound decrease:audio lower:noise reduction
-Volume Up; volume up icon:sound increase:audio higher:noise amplification
-Volume; volume icon:sound symbol:audio sign:noise indicator
-Zoom In; zoom in icon:magnify plus:view enlarge:detail increase
-Zoom Out; zoom out icon:magnify minus:view shrink:detail decrease
-Copy;Duplicate:Clone:Replicate
-Dislike;Thumbs down:Not in favor:Negative feedback
-File add;Add document:Insert file:Add file
-File Check;File verified:File confirmation:Document check
-File Cross;File delete:File remove:Document cross
-File Dash;File minus:File reduction:Document dash
-File Download;Download document:Get file:Retrieve file
-File Question Mark;File query:Document question:File doubt
-File Subtract;Subtract file:Remove file:Delete file
-File Upload;Upload document:Send file:Dispatch file
-File;Document:Record:Sheet
-Filter 2;Refine:Screen:Sieve
-Filter;Refine:Screen:Sieve
-Flag;Marker:Signal:Indicator
-Image;Picture:Photo:Graphic
-Inbox;Mailbox:Incoming:Received
-Keyboard;Typing device:Input device:Keypad
-Laptop;Notebook:Portable computer:Netbook
-Like;Thumbs up:In favor:Positive feedback
-Message Rounded Dash;Message minus:Message reduction:Message dash
-Message Rounded Dots;Message dots:Message points:Message details
-Message Rounded Info;Message information:Message details:Message facts
-Message Rounded Plus;Message add:Message expansion:Message increase
-Message Rounded Question Mark;Message query:Message doubt:Question message
-Message Rounded;Round message:Bubble message:Chat message
-Mobile;Cellphone:Smartphone:Handheld device
-Mouse;Pointing device:Cursor control:Input device
-TV;Television:Broadcast screen:Display screen
-Book;Volume:Tome:Manuscript
-Book text;Book content:Literary text:Reading matter
-Chat;Conversation:Discussion:Dialogue
-Globe;World:Earth:Planet
-Home 1;Dwelling:Residence:Habitat
-Home 2;House:Living space:Domestic place
-Home 3;Housing:Residential area:Place of living
-Shop;Store:Marketplace:Boutique
-Stack;Pile:Heap:Stacking
-Support Tube;Support cylinder:Backing pipe:Aid tube
+Home;House:Building
+Home 2;House:Building
+Home 3;House:Building
+Home 4;House:Building
+Home Cross;House:Building
+Home Plus;House:Building
+Home Check;House:Building:Check:Tick
+Home Heart;House:Building:Heart
+Home Security Lock;House:Building:Lock: Security
+Heart;Health:Love:Valentine
+Trash;Dustbin:Delete:Recycle Bin:Trash Can
+Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
+Trash 3;Dustbin:Delete:Recycle Bin:Trash Can
+Credit Card;Payment:Bank:Checkout:Money:Ecommerce
+Settings;Gear:Cog
+Email;Mail:Envelope:Inbox:Letter
+Globe;Web:Language:Earth:World
+Shop;House:Building:Store:Ecommerce
+Shopping Cart;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
+Shopping Bag;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
+Bell Notification;Alarm:Reminder:Bell:Notification
+Bell Notification Muted;Alarm:Reminder:Mute:Snooze:Bell:Notification
+Three D Box;Box:3D
+Package Box;Delivery Package:Shipping
+Stack;Dashboard:List:Cards
+Security Shield;Security:Shield:Lock
+Shield Cross;Security:Shield:Lock:Cross:Multiply
+Shield Check;Security:Shield:Lock:Check:Tick
+Shield Plus;Security:Shield:Lock:Add:Addition:Plus
+Shiled Minus;Security:Shield:Lock:Subtract:Dash:Minus
+Shield Question Mark;Security:Shield:Lock:Question Mark
+Eye;Password:Show Password:Eyes
+Lock;Password:Security:Safe:Encrypted
+Unlocked;Password:Security:Safe:Encrypted
+Moon;Night:Lunar:Night Mode
+Star;Stars:First
+Sun;Light:Light Mode
+Cancel;Close:Delete:Abort:Stop
+Alarm Clock;Time:Reminder:Clock:Alarm
+Clock;Time:Reminder:Clock:Alarm
+Hour Glass;Time:Reminder:Clock:Alarm
+Calendar;Date:Schedule
+Calendar 2;Date:Schedule
+Calendar 3;Date:Schedule
+Folder;Storage:File Folder:Document:Directory
+Folder 2;Storage:File Folder:Document:Directory
+Folder Plus;Storage:File Folder:Document:Directory:Add: Plus
+Folder Minus;Storage:File Folder:Document:Directory:Minus:Subtract:Dash
+Folder Cross;Storage:File Folder:Document:Directory:Cross:Multiply
+Folder Check;Storage:File Folder:Document:Directory:Tick:Check
+Folder Open;Storage:File Folder:Document:Directory
+File Records;Storage:File Folder:Document:Directory
+Clipboard;Document:Copy:Notes
+Clipboard 2;Document:Copy:Notes
+File;Document:Paper
+File 2;Document:Paper
+File Plus;Document:Paper
+File Minus;Document:Paper:Subtract:Dash
+File Download;Document:Paper:Arrow:Arrow Down:Transfer:Save:Import
+File Upload;Document:Paper:Arrow:Arrow Up:Transfer:Send:Export
+File Check;Document:Paper:Tick
+File Question Mark;Document:Paper:Question Mark
+File Cross;Document:Paper:Cross:Multiply
+Archive Box;Box:Archived
+Copy;Duplicate:Clone
+Edit;Pencil:Pen:Modify
+Pen;Pencil:Pen:Modify
+Edit Pen;Pencil:Pen:Modify
+Zoom In;Magnifying Glass:Magnify:Expand
+Zoom Out;Magnifying Glass:Reduce:Contract
+Share;Share
+Flag;Banner
+Bookmark;Save:Favourite:Mark:Tag
+Filter;Funnel:Sort
+Filter 2;Funnel:Sort
+User;Person:Human:Profile:Account:Avatar
+Swim Ring;Support Tube:Support:Floatie
+Thumbs Up;Like:Upvote
+Thumbs Down;Dislike:Downvote
+Pin;Marker
+Mouse Pointer;Cursor:Click:Arrow Cursor:Indicator
+Compass;Direction:Navigation:Map
+Location;PinPoint:Place:GPS:Destination:Map
+Map Marker;Location:GPS:Map
+Direction Up;Send:Pointer
+Direction Right;Send:Pointer
+Direction Up Right;Send:Pointer
+Direction Up 2;Send:Pointer
+Direction Right 2;Send:Pointer
+Direction Up Right 2;Send:Pointer
+Exclamation Triangle;Danger:Warning:Caution:Attention
+Exclamation Hexagon;Danger:Warning:Caution:Attention
+Arrow Right Circle;Arrow: Circle
+Arrow Down Right Circle;Arrow: Circle
+Arrow Down Circle;Arrow: Circle
+Arrow Down Left Circle;Arrow: Circle
+Arrow Left Circle;Arrow: Circle
+Arrow Up Left Circle;Arrow: Circle
+Arrow Up Circle;Arrow: Circle
+Arrow Up Right Circle;Arrow: Circle
+Dots Circle;Ellipsis:Three Dots:More: Circle
+Dots Horizontal Circle;Ellipsis Horizontal:Three Dots Horizontal:More Horizontal:Circle
+Question Mark Circle;Question: Circle
+Information Circle;Info: Circle
+Plus Circle;Math:Add:Addition:Circle
+Multiply Circle;Math:X:Cross:Close:Multiplication:Circle
+Minus Circle;Math:Subtract:Dash:Circle
+Divide Circle;Math:Division:Circle
+Check Circle;Tick:Verify:Confirm:Select:Circle
+Exclamation Circle;Danger:Warning:Caution:Attention:Circle
+Play Circle;Media:Circle
+Stop Circle;Media:Circle
+User Circle;Person:Human:Profile:Account:Avatar:Circle
+Chevron Right Circle;Arrow:Circle
+Chevron Down Circle;Arrow:Circle
+Chevron Left Circle;Arrow:Circle
+Chevron Up Circle;Arrow:Circle
+Tag Cross;Label:Category:Marker:Close:Multiply
+Tag Plus;Label:Category:Marker:Add
+Tag Minus;Label:Category:Marker:Subtract:Dash
+Tag Check;Label:Category:Marker:Tick
+Tag Question Mark;Label:Category:Marker:Question
+Tag;Label:Category:Marker
+Tag 2;Label:Category:Marker
+Dashboard;Overview: Data Visualization: Performance: Metrics
+Dashboard 2;Overview: Data Visualization: Performance: Metrics
+Dashboard 3;Overview: Data Visualization: Performance: Metrics
+Dashboard 4;Overview: Data Visualization: Performance: Metrics
+Dashboard Plus;Overview: Data Visualization: Performance: Metrics
+Dashboard Minus;Overview: Data Visualization: Performance: Metrics
+Dashboard Cross;Overview: Data Visualization: Performance: Metrics
+Dashboard Check;Overview: Data Visualization: Performance: Metrics
+Chart Up;Data Visualization:Chart:Graph:Analaytics
+Chart;Data Visualization:Chart:Graph:Analaytics
+Chart Down;Data Visualization:Chart:Graph:Analaytics
+Chart Vertical;Data Visualization:Chart:Graph:Analaytics
+Chart 25;Data Visualization:Chart:Graph:Analaytics
+Chart 50;Data Visualization:Chart:Graph:Analaytics
+Chart 15;Data Visualization:Chart:Graph:Analaytics
+Gift;Gift Box:Box
+Database;Storage:System
+Database 2;Storage:System
+Battery Full;Power:Energy
+Battery Half;Power:Energy
+Battery Low;Power:Energy
+Battery Dead;Power:Energy
+Battery Empty;Power:Energy
+Battery Charging;Power:Energy
+Aeroplane;Plane:Aircraft:Flight
+Server;Storage:System
+Server 2;Storage:System
+Message Round;Chat:Dialogue:Text:Conversation
+Message Dots Round;Chat:Dialogue:Text:Conversation:Dots
+Message Plus Round;Chat:Dialogue:Text:Conversation:Plus:Add
+Message Minus Round;Chat:Dialogue:Text:Conversation:Subtract:Dash
+Message Question Mark Round;Chat:Dialogue:Text:Conversation:Question Mark
+Message Info Round;Chat:Dialogue:Text:Conversation:Information:Info
+Message Check Round;Chat:Dialogue:Text:Conversation:Tick:Check
+Message Dots;Chat:Dialogue:Text:Conversation:Dots
+Message Plus;Chat:Dialogue:Text:Conversation:Plus:Add
+Message Minus;Chat:Dialogue:Text:Conversation:Subtract:Dash
+Message Question Mark;Chat:Dialogue:Text:Conversation:Question Mark
+Message Information;Chat:Dialogue:Text:Conversation:Information:Info
+Message;Chat:Dialogue:Text:Conversation
+Message Check;Chat:Dialogue:Text:Conversation:Tick:Check
+Inbox;Mailbox:Notification Center
+Inbox Notification;Mailbox:Notification Center
+Message Conversation;Chat:Dialogue:Text:Conversation
+Phone;Telephone:Call:Communication
+Phone Call;Telephone:Call:Communication
+Phone Cancel;Telephone:Call:Communication
+Phone Outgoing;Telephone:Call:Communication
+Phone Incoming;Telephone:Call:Communication
+Phone Cross;Telephone:Call:Communication
+Phone Plus;Telephone:Call:Communication
+Phone Minus;Telephone:Call:Communication
+Phone Missed Call;Telephone:Call:Communication
+Phone Ringing Loud;Telephone:Call:Communication
+Voicemail;Telephone:Call:Communication
+Image;Photo:Picture:Photograph
+Volume Mute;Audio Mute:Sound Off:No Sound
+Play;Media
+Pause;Media
+Stop;Media
+Fast Forward Back;Media
+Fast Forward;Media
+Previous;Media
+Next;Media
+Volume Up;Audio Up:Sound Up
+Volume Down;Audio Down:Sound Down
+Volume Zero;Audio Zero: Sound Zero
+Mobile Phone;Phone:Smart Phone:Device
+Microphone;Device:Mic:Sound Recorder:Recorder
+Heaphone;Device:Music:Headset:Audio
+Mouse;Device:Clicking Device
+Keyboard;Device:QWERTY
+Television;Device:TV:Screen:Display:Monitor
+Laptop;Device:Notebook:MacBook:Personal Computer
+Camera;Device:Photo:Picture
+Video Camera;Device:Video Recorder
+Printer;Device:Printing Machine
+Layout Up Left;Layout
+Layout Up Right;Layout
+Layout Center;Layout
+Layout Grid;Layout
+Layout Up;Layout
+Layout Right;Layout
+Layout Down;Layout
+Layout Left;Layout
+Chevron Right Square;Square:Arrow:Dropdown
+Chevron Down Square;Square:Arrow:Dropdown
+Chevron Left Square;Square:Arrow:Dropdown
+Chevron Up Square;Square:Arrow:Dropdown
+Arrow Right Square;Square:Arrow
+Arrow Down Right Square;Square:Arrow
+Arrow Down Square;Square:Arrow
+Arrow Down Left Square;Square:Arrow
+Arrow Left Square;Square:Arrow
+Arrow Up Left Square;Square:Arrow
+Arrow Up Square;Square:Arrow
+Arrow Up Right Square;Square:Arrow
+Plus Square;Square:Math:Add:Addition
+Multiply Square;Sqaure:Math:Cross:Multiplication
+Minus Square;Square:Math:Subtract:Dash
+Divide Square;Square:Math:Divide
+Check Square;Square:Tick
+Question Mark Square;Square
+Information Square;Square:Info
+Exclamation Square;Square:Danger
+Message Square;Square:Message:Chat:Dialogue:Text:Conversation
+Message Round Square;Square:Message:Chat:Dialogue:Text:Conversation
+User Square;Square:Person:Avatar:Human
+Play Square;Square:Media
+Pause Square;Square:Media
+Stop Square;Square:Media
+Dots Square;Square:More:Three Dots:Options
+Dots Horizontal Square;Square:More:Three Dots:Options
+Lock Square;Square:Security:Lock
+Heart Square;Square:Heart
+Search Square;Square:Search
+Trash Square;Square:Dustbin:Recycle:Delete
+Bell Notification Square;Square:Notification
+Three D Box Square;Sqaure:3D Box

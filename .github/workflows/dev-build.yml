@@ -21,13 +21,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
-      - run: ./build.sh
+      - run: ./build.dev.sh
       - run: ./build.svg.sh
-      - name: Update Build
-        uses: actions-js/push@master
-        with: 
-          github_token: ${{ secrets.MAGE_ICON_REACT_PAT }}
-          repository: Mage-Icons/mage-icons-react
-          branch: dev
-          directory: ./bin/mage-icons-react
-          force: true
+      - name: Push to Mage Icon React
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_KEY }}
+        with:
+          source-directory: './bin/mage-icons-react'
+          destination-github-username: 'mage-icons'
+          destination-repository-name: 'mage-icons-react'
+          user-email: bugthedebugger@gmail.com
+          target-branch: dev

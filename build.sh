@@ -23,5 +23,8 @@ cd ./bin/mage-icons-react
 git pull
 yarn
 yarn build
-yarn version < version.txt
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+version=$(cat version.txt)
+yarn version --new-version "$version"
 rm version.txt
