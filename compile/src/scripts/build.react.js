@@ -148,7 +148,7 @@ const buildReactIcons = async () => {
           stroke: strokeIconsList,
           bulk: bulkIconList,
           socialBW: socialBWIconList,
-          socialColor: socialSocialIndexString,
+          socialColor: socialColorIconList,
           version: pjson.version,
         })
       )
