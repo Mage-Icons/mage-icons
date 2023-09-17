@@ -83,7 +83,7 @@ const buildReactIcons = async () => {
 
     // Build social color icons
     for (const icon of socialColorIconList) {
-      buildIcons(icon, socialColorBuildPath, "./svg/social-color", template, replaceFillColor);
+      buildIcons(icon, socialColorBuildPath, "./svg/social-color", template);
       progress++;
       reactBuildProgress.update(progress);
     }
