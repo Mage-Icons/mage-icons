@@ -67,6 +67,8 @@ File Upload;Document:Paper:Arrow:Arrow Up:Transfer:Send:Export
 File Check;Document:Paper:Tick
 File Question Mark;Document:Paper:Question Mark
 File Cross;Document:Paper:Cross:Multiply
+Book;Text:Copy:File:Paper
+Book Text;Paper:Text:Copy:File
 Archive Box;Box:Archived
 Copy;Duplicate:Clone
 External Link;Hyperlink:External Website Link:URL
