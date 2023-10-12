@@ -13,13 +13,22 @@ Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 3;Dustbin:Delete:Recycle Bin:Trash Can
 Credit Card;Payment:Bank:Checkout:Money:Ecommerce
 Settings;Gear:Cog
-Email;Mail:Envelope:Inbox:Letter
+Email;Mail:Envelope:Inbox:Letter:Notification
+Email Opened;Mail:Envelope:Inbox:Letter:Notification
 Globe;Web:Language:Earth:World
 Shop;House:Building:Store:Ecommerce
 Shopping Cart;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
 Shopping Bag;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
-Bell Notification;Alarm:Reminder:Bell:Notification
-Bell Notification Muted;Alarm:Reminder:Mute:Snooze:Bell:Notification
+Notification Bell;Alarm:Reminder:Bell:Notification
+Notification Bell Muted;Alarm:Reminder:Mute:Snooze:Bell:Notification
+Notification Bell Snooze 2;Alarm:Reminder:Mute:Snooze:Bell:Notification
+Notification Bell Plus;Alarm:Reminder:Bell:Notification:Plus:Add
+Notification Bell Minus;Alarm:Reminder:Bell:Notification:Minus:Subtract:Dash
+Notification Bell Download;Alarm:Reminder:Bell:Notification:Download
+Notification Bell Upload;Alarm:Reminder:Bell:Notification:Upload
+Notification Bell Check;Alarm:Reminder:Bell:Notification:Check:Tick
+Notification Bell Cross;Alarm:Reminder:Bell:Notification:Cross:Close:X
+Notification Bell Question Mark;Alarm:Reminder:Bell:Notification:Question Mark
 Three D Box;Box:3D
 Package Box;Delivery Package:Shipping
 Stack;Dashboard:List:Cards
@@ -42,6 +51,13 @@ Hour Glass;Time:Reminder:Clock:Alarm
 Calendar;Date:Schedule
 Calendar 2;Date:Schedule
 Calendar 3;Date:Schedule
+Calendar Plus;Date:Schedule:Add:Plus
+Calendar Minus;Date:Schedule:Subtract:Minus
+Calendar Download;Date:Schedule:Download
+Calendar Upload;Date:Schedule:Upload
+Calendar Check;Date:Schedule:Tick:Check
+Calendar Cross;Date:Schedule:Close:Cross:X
+Calendar Question Mark;Date:Schedule:Question Mark
 Folder;Storage:File Folder:Document:Directory
 Folder 2;Storage:File Folder:Document:Directory
 Folder Plus;Storage:File Folder:Document:Directory:Add: Plus
@@ -167,6 +183,14 @@ Message;Chat:Dialogue:Text:Conversation
 Message Check;Chat:Dialogue:Text:Conversation:Tick:Check
 Inbox;Mailbox:Notification Center
 Inbox Notification;Mailbox:Notification Center
+Inbox Star;Mailbox:Notification Center
+Inbox Plus;Mailbox:Notification Center
+Inbox Minus;Mailbox:Notification Center
+Inbox Upload;Mailbox:Notification Center
+Inbox Download;Mailbox:Notification Center
+Inbox Check;Mailbox:Notification Center
+Inbox Cross;Mailbox:Notification Center
+Inbox Question Mark;Mailbox:Notification Center
 Message Conversation;Chat:Dialogue:Text:Conversation
 Phone;Telephone:Call:Communication
 Phone Call;Telephone:Call:Communication
