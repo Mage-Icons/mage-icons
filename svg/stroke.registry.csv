@@ -46,6 +46,15 @@ Shield Plus;Security:Shield:Lock:Add:Addition:Plus
 Shiled Minus;Security:Shield:Lock:Subtract:Dash:Minus
 Shield Question Mark;Security:Shield:Lock:Question Mark
 Eye;Password:Show Password:Eyes
+Eye Off;Password:Show Password:Eyes
+Eye Closed;Password:Show Password:Eyes
+Key;Lock:Security:Keys
+Fingerprint;Finger:Security
+Fingerprint minimal;Finger:Security
+Scan;Scanner
+Scan User;User
+QR Code;Quick Response Code
+Bar Code Scan;Bar Code
 Lock;Password:Security:Safe:Encrypted
 Unlocked;Password:Security:Safe:Encrypted
 Dots Menu;Menu:Ellipsis Menu
@@ -87,7 +96,19 @@ File Question Mark;Document:Paper:Question Mark
 File Cross;Document:Paper:Cross:Multiply
 Book;Text:Copy:File:Paper
 Book Text;Paper:Text:Copy:File
-Archive Box;Box:Archived
+Note;Paper:Sticker
+Note With Text;Paper:Sticker
+Round Sticker;Paper:Sticker
+Note Text;Paper:Sticker
+Archive;Box:Archived:Download
+Box;Box
+Box Plus;Plus:Add
+Box Minus;Subtract
+Box Upload;Up
+Box Check;Check
+Box Cross;Close:X
+Box Question Mark;Question Mark
+Archive Drawer;Drawer:Archive
 Copy;Duplicate:Clone
 External Link;Hyperlink:External Website Link:URL
 Link;URL:HyperLink
@@ -100,10 +121,18 @@ Zoom Out;Magnifying Glass:Reduce:Contract
 Share;Share
 Flag;Banner
 Bookmark;Save:Favourite:Mark:Tag
+Bookmark Plus;Save:Favourite:Mark:Tag
+Bookmark Minus;Save:Favourite:Mark:Tag
+Bookmark Download;Save:Favourite:Mark:Tag
+Bookmark Upload;Save:Favourite:Mark:Tag
+Bookmark Check;Save:Favourite:Mark:Tag
+Bookmark Cross;Save:Favourite:Mark:Tag
+Bookmark Question Mark;Save:Favourite:Mark:Tag
 Filter;Funnel:Sort
 Filter 2;Funnel:Sort
 User;Person:Human:Profile:Account:Avatar
-Swim Ring;Support Tube:Support:Floatie
+Users;Person:Human:Profile:Account:Avatar
+Tube;Support Tube:Support:Floatie:Ring
 Thumbs Up;Like:Upvote
 Thumbs Down;Dislike:Downvote
 Pin;Marker
@@ -279,6 +308,13 @@ Phone Missed Call;Telephone:Call:Communication
 Phone Ringing Loud;Telephone:Call:Communication
 Voicemail;Telephone:Call:Communication
 Image;Photo:Picture:Photograph
+Image Plus;Photo:Picture:Photograph:Add
+Image Minus;Photo:Picture:Photograph:Subtract:Dash
+Image Upload;Photo:Picture:Photograph
+Image Download;Photo:Picture:Photograph
+Image Check;Photo:Picture:Photograph:Tick
+Image Cross;Photo:Picture:Photograph:Close:X
+Image Question Mark;Photo:Picture:Photograph
 Volume Mute;Audio Mute:Sound Off:No Sound
 Play;Media
 Pause;Media
@@ -296,9 +332,40 @@ Heaphone;Device:Music:Headset:Audio
 Mouse;Device:Clicking Device
 Keyboard;Device:QWERTY
 Television;Device:TV:Screen:Display:Monitor
+Television Plus;Device:TV:Screen:Display:Monitor:Add
+Television Minus;Device:TV:Screen:Display:Monitor:Subtract:Dash
+Television Upload;Device:TV:Screen:Display:Monitor
+Television Download;Device:TV:Screen:Display:Monitor
+Television Check;Device:TV:Screen:Display:Monitor:Tick
+Television Cross;Device:TV:Screen:Display:Monitor:Close:X
+Television Question Mark;Device:TV:Screen:Display:Monitor
 Laptop;Device:Notebook:MacBook:Personal Computer
 Camera;Device:Photo:Picture
-Video Camera;Device:Video Recorder
+Camera 2;Device:Photo:Picture
+Focus;Focus:Camera:Lens
+Lens;Camera:Lens
+Video;Device:Video Recorder:Video Camera
+Video Plus;Device:Video Recorder:Video Camera:Add
+Video Minus;Device:Video Recorder:Video Camera:Subtract:Dash
+Video Upload;Device:Video Recorder:Video Camera
+Video Download;Device:Video Recorder:Video Camera
+Video Check;Device:Video Recorder:Video Camera:Tick
+Video Cross;Device:Video Recorder:Video Camera:Close:X
+Video Question Mark;Device:Video Recorder:Video Camera
+Media Reel H;Video:Reel
+Media Reel V;Video:Reel
+Video Player;Media Player:Play
+Broadcast;Live
+Playlist;List
+Playlist Alternate;List
+Playlist Add;Plus:Add:List
+Preview;Arrow Box
+Preview Circle;Arrow Circle
+Music;Song
+Music alternate;Song
+Music Circle;Song Circle
+Music Square;Song Square
+Sound Waves;Sound:Wave
 Printer;Device:Printing Machine
 Layout Up Left;Layout
 Layout Up Right;Layout
