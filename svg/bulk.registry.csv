@@ -1,3 +1,8 @@
+Dashboard Chart;Chart:Graph:Dashboard:Analytics
+Dashboard Bar;Chart:Graph:Dashboard:Analytics
+Dashboard Circle Chart;Chart:Graph:Dashboard:Analytics
+Dashboard Circle Bar;Chart:Graph:Dashboard:Analytics
+Dashboard Chart Arrow;Chart:Graph:Dashboard:Analytics
 Home;House:Building
 Home 2;House:Building
 Home 3;House:Building
@@ -29,7 +34,16 @@ Notification Bell Upload;Alarm:Reminder:Bell:Notification:Upload
 Notification Bell Check;Alarm:Reminder:Bell:Notification:Check:Tick
 Notification Bell Cross;Alarm:Reminder:Bell:Notification:Cross:Close:X
 Notification Bell Question Mark;Alarm:Reminder:Bell:Notification:Question Mark
-Three D Box;Box:3D
+Box 3D;Box:3D
+Box 3D Plus;Box:3D
+Box 3D Minus;Box:3D
+Box 3D Upload;Box:3D
+Box 3D Download;Box:3D
+Box 3D Notification;Box:3D
+Box 3D Check;Box:3D
+Box 3D Cross;Box:3D
+Box 3D Question Mark;Box:3D
+Box 3D Scan;Box:3D
 Package Box;Delivery Package:Shipping
 Stack;Dashboard:List:Cards
 Security Shield;Security:Shield:Lock
@@ -47,6 +61,12 @@ Lock;Password:Security:Safe:Encrypted
 Unlocked;Password:Security:Safe:Encrypted
 Moon;Night:Lunar:Night Mode
 Star;Stars:First
+Stars A;Stars:Light:Glitter
+Stars B;Stars:Light:Glitter
+Stars C;Stars:Light:Glitter
+Star Square;Stars:Light:Glitter:Square
+Star Circle;Stars:Light:Glitter:Coin
+Star Moving;Stars:Fast:First
 Sun;Light:Light Mode
 Cancel;Close:Delete:Abort:Stop
 Alarm Clock;Time:Reminder:Clock:Alarm
