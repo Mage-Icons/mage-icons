@@ -18,6 +18,7 @@ Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 3;Dustbin:Delete:Recycle Bin:Trash Can
 Credit Card;Payment:Bank:Checkout:Money:Ecommerce
 Settings;Gear:Cog
+Bolt;Gear:Cog:Settings
 Email;Mail:Envelope:Inbox:Letter:Notification
 Email Opened;Mail:Envelope:Inbox:Letter:Notification
 Globe;Web:Language:Earth:World
@@ -137,6 +138,20 @@ Filter 2;Funnel:Sort
 User;Person:Human:Profile:Account:Avatar
 Users;Person:Human:Profile:Account:Avatar
 Tube;Support Tube:Support:Floatie:Ring
+Magnet Up;Metal:Utility
+Magnet Right;Metal:Utility
+Magnet Down;Metal:Utility
+Magnet Left;Metal:Utility
+Zap;Electricity:Current
+Zap Circle;Electricity:Current
+Zap Square;Electricity:Current
+Electricity;Electricity:Current
+Electricity Danger;Electricity:Current
+Gem Stone;Stone
+Gem A;Stone
+Gem B;Stone
+Gem C;Stone
+Wrench;Settings
 Thumbs Up;Like:Upvote
 Thumbs Down;Dislike:Downvote
 Pin;Marker
@@ -263,6 +278,9 @@ Mobile Phone;Phone:Smart Phone:Device
 Microphone;Device:Mic:Sound Recorder:Recorder
 Heaphone;Device:Music:Headset:Audio
 Mouse;Device:Clicking Device
+Mouse 2;Device
+Compact Disk;CD:Disc
+Chip;Microprocessor:Technology
 Keyboard;Device:QWERTY
 Television;Device:TV:Screen:Display:Monitor
 Television Plus;Device:TV:Screen:Display:Monitor:Add
@@ -298,6 +316,16 @@ Music alternate;Song
 Music Circle;Song Circle
 Music Square;Song Square
 Printer;Device:Printing Machine
+Robot;AI:Technology
+Robot Appreciate;AI:Technology
+Robot Sad;AI:Technology
+Robot Happy;AI:Technology
+Robot Dead;AI:Technology
+Robot Wink;AI:Technology
+Robot Uwu;AI:Technology
+Robot Screen;AI:Technology
+Gameboy;GameCube:Game:Device
+Calculator;Device
 Layout Up Left;Layout
 Layout Up Right;Layout
 Layout Center;Layout
