@@ -6,6 +6,8 @@ Dashboard Circle Chart;Chart:Graph:Dashboard:Analytics
 Dashboard Circle Bar;Chart:Graph:Dashboard:Analytics
 Dashboard Chart Arrow;Chart:Graph:Dashboard:Analytics
 Dashboard Chart Star;Chart:Graph:Dashboard:Analytics
+Double Circle;Target
+Double Squre;Cool Square
 Home;House:Building
 Home 2;House:Building
 Home 3;House:Building
@@ -14,21 +16,35 @@ Home Cross;House:Building
 Home Plus;House:Building
 Home Check;House:Building:Check:Tick
 Home Heart;House:Building:Heart
-Home Security Lock;House:Building:Lock: Secur3ity
+Home Security Lock;House:Building:Lock:Security
+Building A;House:Office
+Building B;House:Office
+Building Tree;House:Office
 Heart;Health:Love:Valentine
 Trash;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 2;Dustbin:Delete:Recycle Bin:Trash Can
 Trash 3;Dustbin:Delete:Recycle Bin:Trash Can
+Save Floppy;Save
 Credit Card;Payment:Bank:Checkout:Money:Ecommerce
+ID Card;Identity Card:Passport
 Settings;Gear:Cog
 Bolt;Gear:Cog:Settings
 Email;Mail:Envelope:Inbox:Letter:Notification
 Email Notification;Mail:Envelope:Inbox:Letter:Notification
 Email Opened;Mail:Envelope:Inbox:Letter:Notification
 Globe;Web:Language:Earth:World
+Earth;Web:Globe:World
 Shop;House:Building:Store:Ecommerce
 Shopping Cart;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
 Shopping Bag;Shopping:Ecommerce:Trolley:Buy:Checkout:Basket
+Basket;Shopping:Ecommerce:Buy:Checkout
+Bag A;Shopping:Ecommerce:Buy:Checkout:Basket
+Bag B;Shopping:Ecommerce:Buy:Checkout:Basket
+Briefcase;Bag:Office
+Dollar;Money:Payment:US:Price
+Coin A;Money:Dollar:Price
+Coin B;Money:Dollary:Price
+Verified Check;Check Mark:Tick:Verify
 Download;Arrow:Arrow Down:Transfer:Save:Import
 Upload;Arrow:Arrow Up:Transfer:Send:Export
 Logout;Arrow:Arrow Right:Sign Out:Signout:Log Out
@@ -124,6 +140,8 @@ Note;Paper:Sticker
 Note With Text;Paper:Sticker
 Round Sticker;Paper:Sticker
 Note Text;Paper:Sticker
+Checklist Note;Dashes:List:Bullet:Paper
+Contact Book;Diary:Contacts:Users
 Archive;Box:Archived:Download
 Box;Box
 Box Plus;Plus:Add
@@ -140,6 +158,8 @@ Attachment;Paper Clip
 Edit;Pencil:Pen:Modify
 Pen;Pencil:Pen:Modify
 Edit Pen;Pencil:Pen:Modify
+Checklist;Dashes:List:Bullet:Points
+Arrowlist;List:Dashes:Bullet:Points
 Zoom In;Magnifying Glass:Magnify:Expand
 Zoom Out;Magnifying Glass:Reduce:Contract
 Share;Share
@@ -154,6 +174,7 @@ Bookmark Cross;Save:Favourite:Mark:Tag
 Bookmark Question Mark;Save:Favourite:Mark:Tag
 Filter;Funnel:Sort
 Filter 2;Funnel:Sort
+Filter Square;Funnel:Sort
 User;Person:Human:Profile:Account:Avatar
 Users;Person:Human:Profile:Account:Avatar
 Tube;Support Tube:Support:Floatie:Ring
@@ -171,6 +192,26 @@ Gem A;Stone
 Gem B;Stone
 Gem C;Stone
 Wrench;Settings
+Double Diamond;Cool Diamond
+Shut Down;Power:Button
+Color Swatch;Colors
+Color Picker;Colors
+Heart Health;Pulse:Health
+Health Square;Pulse:Health
+Health Circle;Pulse:Health
+Hospital Circle;Plus:Health:Hospital
+Hospital Square;Plus:Health:Hospital
+Hospital Shield;Plus:Health:Hospital
+First Aid Kit;Plus:Health:Hospital
+Handicapped;Disabled
+Hospital Plus;Health:Love:Valentine
+Crown A;Winner:Trophy:Crown:King
+Crown B;Winner:Trophy:Crown:King
+Trophy;Prize:Winner:Cup
+Trophy Star;Prize:Winner:Cup
+Trophy Circle;Prize:Winner:Cup
+Trophy Up;Prize:Winner:Cup
+Trophy Down;Prize:Winner:Cup
 Thumbs Up;Like:Upvote
 Thumbs Down;Dislike:Downvote
 Pin;Marker
@@ -197,6 +238,10 @@ Chevron Right;Arrow:Dropdown
 Chevron Down;Arrow:Dropdown
 Chevron Left;Arrow:Dropdown
 Chevron Up;Arrow:Dropdown
+Caret Right;Arrow:Dropdown
+Caret Down;Arrow:Dropdown
+Caret Left;Arrow:Dropdown
+Caret Up;Arrow:Dropdown
 Double Arrow Right;Arrow
 Double Arrow Left;Arrow
 Double Arrow Down;Arrow
@@ -215,6 +260,7 @@ L Arrow Down Left;Arrow
 L Arrow Right Down;Arrow
 Arrows All Direction;Arrow
 Arrows All Direction 2;Arrow
+Select Box;Selection:Square:Box
 Plus;Math:Add:Addition
 Multiply;Math:X:Cross:Close:Multiplication
 Minus;Math:Subtract:Dash
@@ -293,6 +339,7 @@ Battery Dead;Power:Energy
 Battery Empty;Power:Energy
 Battery Charging;Power:Energy
 Aeroplane;Plane:Aircraft:Flight
+Rocket;Upgrade:Boost:Spaceship
 Server;Storage:System
 Server 2;Storage:System
 Message Round;Chat:Dialogue:Text:Conversation
@@ -345,6 +392,7 @@ Phone Minus;Telephone:Call:Communication
 Phone Missed Call;Telephone:Call:Communication
 Phone Ringing Loud;Telephone:Call:Communication
 Voicemail;Telephone:Call:Communication
+Dialer Keypad;Phone:Call:Telephone
 Image;Photo:Picture:Photograph
 Image Plus;Photo:Picture:Photograph:Add
 Image Minus;Photo:Picture:Photograph:Subtract:Dash
